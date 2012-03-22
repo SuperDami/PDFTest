@@ -15,6 +15,11 @@
 		059E1214151B2BBD008C1C0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 059E1213151B2BBD008C1C0A /* AppDelegate.m */; };
 		059E1217151B2BBD008C1C0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 059E1216151B2BBD008C1C0A /* ViewController.m */; };
 		059E121A151B2BBD008C1C0A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 059E1218151B2BBD008C1C0A /* ViewController.xib */; };
+		059E122B151B2C1D008C1C0A /* PDFContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 059E1225151B2C1D008C1C0A /* PDFContentView.m */; };
+		059E122C151B2C1D008C1C0A /* PDFDocumentLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 059E1227151B2C1D008C1C0A /* PDFDocumentLink.m */; };
+		059E122D151B2C1D008C1C0A /* PDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 059E1229151B2C1D008C1C0A /* PDFScrollView.m */; };
+		059E122E151B2C1D008C1C0A /* Reader.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 059E122A151B2C1D008C1C0A /* Reader.pdf */; };
+		059E1235151B2C7B008C1C0A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059E1234151B2C7B008C1C0A /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +27,23 @@
 		059E1203151B2BBD008C1C0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		059E1205151B2BBD008C1C0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		059E1207151B2BBD008C1C0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		059E120B151B2BBD008C1C0A /* PDFTest-Info.plist */ = {isa = PBXFileReference; path = "PDFTest-Info.plist"; sourceTree = "<group>"; };
+		059E120B151B2BBD008C1C0A /* PDFTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PDFTest-Info.plist"; sourceTree = "<group>"; };
 		059E120D151B2BBD008C1C0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		059E120F151B2BBD008C1C0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		059E1211151B2BBD008C1C0A /* PDFTest-Prefix.pch */ = {isa = PBXFileReference; path = "PDFTest-Prefix.pch"; sourceTree = "<group>"; };
-		059E1212151B2BBD008C1C0A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		059E1211151B2BBD008C1C0A /* PDFTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PDFTest-Prefix.pch"; sourceTree = "<group>"; };
+		059E1212151B2BBD008C1C0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		059E1213151B2BBD008C1C0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		059E1215151B2BBD008C1C0A /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		059E1215151B2BBD008C1C0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		059E1216151B2BBD008C1C0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		059E1219151B2BBD008C1C0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		059E1224151B2C1D008C1C0A /* PDFContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFContentView.h; sourceTree = "<group>"; };
+		059E1225151B2C1D008C1C0A /* PDFContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFContentView.m; sourceTree = "<group>"; };
+		059E1226151B2C1D008C1C0A /* PDFDocumentLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFDocumentLink.h; sourceTree = "<group>"; };
+		059E1227151B2C1D008C1C0A /* PDFDocumentLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFDocumentLink.m; sourceTree = "<group>"; };
+		059E1228151B2C1D008C1C0A /* PDFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFScrollView.h; sourceTree = "<group>"; };
+		059E1229151B2C1D008C1C0A /* PDFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFScrollView.m; sourceTree = "<group>"; };
+		059E122A151B2C1D008C1C0A /* Reader.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Reader.pdf; sourceTree = "<group>"; };
+		059E1234151B2C7B008C1C0A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +54,7 @@
 				059E1204151B2BBD008C1C0A /* UIKit.framework in Frameworks */,
 				059E1206151B2BBD008C1C0A /* Foundation.framework in Frameworks */,
 				059E1208151B2BBD008C1C0A /* CoreGraphics.framework in Frameworks */,
+				059E1235151B2C7B008C1C0A /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +81,7 @@
 		059E1202151B2BBD008C1C0A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				059E1234151B2C7B008C1C0A /* QuartzCore.framework */,
 				059E1203151B2BBD008C1C0A /* UIKit.framework */,
 				059E1205151B2BBD008C1C0A /* Foundation.framework */,
 				059E1207151B2BBD008C1C0A /* CoreGraphics.framework */,
@@ -77,6 +92,13 @@
 		059E1209151B2BBD008C1C0A /* PDFTest */ = {
 			isa = PBXGroup;
 			children = (
+				059E122A151B2C1D008C1C0A /* Reader.pdf */,
+				059E1224151B2C1D008C1C0A /* PDFContentView.h */,
+				059E1225151B2C1D008C1C0A /* PDFContentView.m */,
+				059E1226151B2C1D008C1C0A /* PDFDocumentLink.h */,
+				059E1227151B2C1D008C1C0A /* PDFDocumentLink.m */,
+				059E1228151B2C1D008C1C0A /* PDFScrollView.h */,
+				059E1229151B2C1D008C1C0A /* PDFScrollView.m */,
 				059E1212151B2BBD008C1C0A /* AppDelegate.h */,
 				059E1213151B2BBD008C1C0A /* AppDelegate.m */,
 				059E1215151B2BBD008C1C0A /* ViewController.h */,
@@ -150,6 +172,7 @@
 			files = (
 				059E120E151B2BBD008C1C0A /* InfoPlist.strings in Resources */,
 				059E121A151B2BBD008C1C0A /* ViewController.xib in Resources */,
+				059E122E151B2C1D008C1C0A /* Reader.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +186,9 @@
 				059E1210151B2BBD008C1C0A /* main.m in Sources */,
 				059E1214151B2BBD008C1C0A /* AppDelegate.m in Sources */,
 				059E1217151B2BBD008C1C0A /* ViewController.m in Sources */,
+				059E122B151B2C1D008C1C0A /* PDFContentView.m in Sources */,
+				059E122C151B2C1D008C1C0A /* PDFDocumentLink.m in Sources */,
+				059E122D151B2C1D008C1C0A /* PDFScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +302,7 @@
 				059E121F151B2BBD008C1C0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

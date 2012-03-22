@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'PDFTest' target in the 'PDFTest' project
+// Prefix header for all source files of the 'PDFtest' target in the 'PDFtest' project
 //
 
 #import <Availability.h>

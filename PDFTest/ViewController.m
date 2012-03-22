@@ -1,12 +1,13 @@
 //
 //  ViewController.m
-//  PDFTest
+//  PDFtest
 //
 //  Created by czj on 3/22/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import "ViewController.h"
+#import "PDFScrollView.h"
 
 @implementation ViewController
 
@@ -22,6 +23,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+    pdfScrollView = [[PDFScrollView alloc] initWithFrame:self.view.frame];
+    pdfScrollView.delegate = self;    
+    [self.view addSubview:pdfScrollView];
 }
 
 - (void)viewDidUnload
@@ -57,4 +62,10 @@
     return YES;
 }
 
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
+    if([scrollView isKindOfClass:[PDFScrollView class]]) {
+        return (UIView *)pdfScrollView.pdfContentView;
+    }
+    return nil;
+}
 @end

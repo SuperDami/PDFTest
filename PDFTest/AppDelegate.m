@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  PDFTest
+//  PDFtest
 //
 //  Created by czj on 3/22/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
@@ -23,6 +23,7 @@
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
